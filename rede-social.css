@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    border: 0px;
+}
+html, body{
+    height: 98vh;/*altura da viewport */
+    width: 98vw;/*viewport width */
+    background-color: black;
+}
+body{
+    background: black url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;/* cobrir a tela inteira */
+}
+main{
+    position: relative;/*  posiciona o elemento em relação a si mesmo. Ou seja, o ponto zero será o canto superior esquerdo, e ele começará a contar a partir dali. */
+    height: 98vh;
+}
+section#telefone{
+    background-image: url('imagens/frame-iphone.png');
+    position: absolute;/* indica que o elemento ficará em uma posição fixa em relação à página */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* reposiciona um elemento na direção horizontal e/ou vertical. */
+    background-repeat: no-repeat;
+    height: 621px;
+    width: 306px;
+}
+    iframe {
+        position: relative;
+        top: 80px;
+        left: 22px;
+        width: 269px;
+        height: 471px;
+        
+    }
